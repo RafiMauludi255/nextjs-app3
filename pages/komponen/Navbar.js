@@ -9,9 +9,9 @@ export default function navbar() {
 
           <ul>
             <li><Link href='/'>Products</Link></li>
-            <li><Link>Use&nbsp;Cases</Link></li>
-            <li><Link href='/about'>About&nbsp;Us</Link></li>
-            <li><Link href='/profile'>For&nbsp;Consumers</Link></li>
+            <li><Link>UseCases</Link></li>
+            <li><Link href='/about'>AboutUs</Link></li>
+            <li><Link href='/profile'>ForConsumers</Link></li>
            <Btn />
           </ul>
         </nav>
@@ -20,5 +20,5 @@ export default function navbar() {
 }
 
 function Btn() {
-  return <button>Contact&nbsp;Us</button>
+  return <button>ContactUs</button>
 }
