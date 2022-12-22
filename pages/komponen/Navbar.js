@@ -8,10 +8,10 @@ export default function navbar() {
           <span className='logo'>Unflip</span>
 
           <ul>
-            <li><a href='/'>Products</a></li>
-            <li><a>Use&nbsp;Cases</a></li>
-            <li><a href='/about'>About&nbsp;Us</a></li>
-            <li><a href='/profile'>For&nbsp;Consumers</a></li>
+            <li><Link href='/'>Products</Link></li>
+            <li><Link>Use&nbsp;Cases</Link></li>
+            <li><Link href='/about'>About&nbsp;Us</Link></li>
+            <li><Link href='/profile'>For&nbsp;Consumers</Link></li>
            <Btn />
           </ul>
         </nav>
