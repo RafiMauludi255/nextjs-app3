@@ -1,4 +1,5 @@
 import style from '../../styles/home.module.css'
+import Link from 'next/link'
 
 export default function navbar() {
     return (
