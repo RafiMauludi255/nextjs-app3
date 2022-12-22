@@ -8,7 +8,7 @@ import contactless from "../image/contactless.svg"
 import shop from "../image/shop.svg"
 import ranking from "../image/ranking.svg"
 import typing from "../image/womantyping.svg"
-import Link from "next/Link";
+import Link from 'next/link';
 
 export default function home() {
     return (
@@ -61,6 +61,7 @@ function AboutLanding() {
 }
 
 function Box() {
+    
     return (
         <div className={styles.flex}>
         <div className={styles.box}>

@@ -24,8 +24,8 @@ export default function Home() {
 
         <div className={styles.grid}>
           <Link href="/home" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h2>Web Apps 1 &rarr;</h2>
+            <p>Aplikasi landing page, belum berhasil di upload ke vercel</p>
           </Link>
 
           

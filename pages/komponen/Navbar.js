@@ -1,17 +1,16 @@
-
 import style from '../../styles/home.module.css'
 
 export default function navbar() {
     return (
       <div className={style.font}>
         <nav className={style.navbar}>
-          <span className='logo'>Unflip</span>
+          <span className='logo'><a href="/home">Unflip</a></span>
 
           <ul>
-            <li><Link href='/'>Products</Link></li>
-            <li><Link>Use&nbsp;Cases</Link></li>
-            <li><Link href='/about'>About&nbsp;Us</Link></li>
-            <li><Link href='/profile'>For&nbsp;Consumers</Link></li>
+            <li><a href='/'>Products</a></li>
+            <li><a>Use&nbsp;Cases</a></li>
+            <li><a href='/about'>About&nbsp;Us</a></li>
+            <li><a href='/profile'>For&nbsp;Consumers</a></li>
            <Btn />
           </ul>
         </nav>
